@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "browser-sync": "^2.6.9"
+  },
+  "scripts": {
+    "start": "browser-sync start --server --files \"*.html, css/*.css, js/*.js\""
+  }
+}
