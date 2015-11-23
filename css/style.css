@@ -123,9 +123,34 @@ textarea {
   font-size: 1.25em;
   display: inline-block;
   padding: 20px 0 20px 20px;
+  position: relative;
 }
 .nav-btn:hover {
   opacity: 1;
+}
+
+.nav-btn--highlight {
+  color: #fc0;
+  opacity: 1;
+}
+.nav-btn--highlight:hover {
+  color: #fff;
+}
+
+.nav-btn .icon-link {
+  opacity: .15;
+}
+.nav-btn:hover .icon-link {
+  opacity: .5;
+}
+
+.icon-link {
+  width:            10px;
+  height:           10px;
+  background-image: url(../img/external-link.svg);
+  position: absolute;
+  right: -14px;
+  top: 18px;
 }
 
 .summary-title {
